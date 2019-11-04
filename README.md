@@ -1,7 +1,7 @@
-Systems Improvements for Depth Estimation
+# **Systems Improvements for Depth Estimation**
 
-Authors:
-  jShay - Jhanavi Sanjay Sheth
-  vaishnavik22 - Vaishnavi Kannan
-  imvinod - Vinod Kumar
-  Prateek
+**Authors**:  
+  jShay - Jhanavi Sanjay Sheth  
+  vaishnavik22 - Vaishnavi Kannan  
+  imvinod - Vinod Kumar  
+  Prateek  
