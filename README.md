@@ -24,3 +24,31 @@ Autonomous vehicles, warehouse robots, industrial mobile robots are being utiliz
           Encoder: Convolution
           Decoder: Upsampling
 4. Skipping depth estimate for frames: if difference in depth map less than threshold (hyperparameter), skip depth calculation 5. Output is a depth estimate of the input image having size 224 X 224 X 1
+
+**Dataset**
+Dataset used for this project is the Kitti dataset. Available for download at : http://www.cvlibs.net/datasets/kitti/
+
+**Usage**
+Main file to simulate DL model - process.ipynb
+The python notebook simulates performance comparison of the DL model for all improvements done:
+1. PCA 
+2. Frame skipping
+3. Depth map projection
+
+The notebook invokes functions implemented in the source python files.
+
+**TaskList**
+
+Completed:
+* [x] Research on techniques for depth estimation.
+* [x] Research on system optimizations for depth estimation
+* [x] Environment setup
+* [x] Design architecture and implement depth estimator DL model
+* [x] Trained DL model on kitti dataset
+* [x] Design and implement frame skipping
+* [x] Verified frame skipping logic on different test dataset
+* [x] Comparison of with and without frame skipping based on time and rmse
+
+To do:
+* [ ] Improvise PCA logic to eliminate inverse transformation
+* [ ] Implement spatial frame filtering to reduce size of image passed to DL model
