@@ -15,9 +15,11 @@ Course project for CS 8803 - Data Analysis with Deep Learning at Georgia Institu
 
 
 **Why is this important?**
+
 Autonomous vehicles, warehouse robots, industrial mobile robots are being utilized in a scale larger than ever. Perception plays a key role in enabling intelligent robots to sense the environment accurately. Any technique that reduces processing time and results in an increase of number of frames per second works in favour of better perception. Potential to directly impact how future robots perceive the world.
 
 **Approach**
+
 1. Input image from a monocular (single) camera. Size of the input image is : 224 X 224 X 3
 2. Dimensionality reduction using PCA / Spatial Frame filtering to reduce the size of the input image passed to the Depth Estimator model.
 3. DL Model Architecture: Has an encoder - decoder layer. 
@@ -26,9 +28,11 @@ Autonomous vehicles, warehouse robots, industrial mobile robots are being utiliz
 4. Skipping depth estimate for frames: if difference in depth map less than threshold (hyperparameter), skip depth calculation 5. Output is a depth estimate of the input image having size 224 X 224 X 1
 
 **Dataset**
+
 Dataset used for this project is the Kitti dataset. Available for download at : http://www.cvlibs.net/datasets/kitti/
 
 **Usage**
+
 Main file to simulate DL model - process.ipynb
 The python notebook simulates performance comparison of the DL model for all improvements done:
 1. PCA 
