@@ -49,5 +49,6 @@ def run(img):
 
     segm = CMAP[segm.argmax(axis=2)].astype(np.uint8)
     depth = np.abs(depth)
+
     
     return depth
