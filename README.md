@@ -67,5 +67,5 @@ Completed:
 * [x] Implement spatial frame filtering to reduce size of image passed to DL model
 
 To do:
-* [ ] Improvise PCA logic to eliminate inverse transformation
+* [ ] Implement sparse PCA
 
