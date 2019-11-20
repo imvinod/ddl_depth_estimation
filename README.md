@@ -69,3 +69,5 @@ Completed:
 To do:
 * [ ] Implement sparse PCA
 
+The Deep learning architecture is from the paper titled: [Real-Time Joint Semantic Segmentation and Depth Estimation Using Asymmetric Annotations for non-commercial purposes](https://arxiv.org/abs/1809.04766)
+Credits to the Author: Vladimir Nekrasov et al. 
